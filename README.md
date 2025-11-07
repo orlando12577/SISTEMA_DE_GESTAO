@@ -91,4 +91,64 @@ DB_PASSWORD=password
 
 ```
 
+## 🚀 Subir o ambiente
 
+```
+# Construir e iniciar os containers
+docker-compose up -d --build
+
+# Instalar dependências do Laravel
+docker exec -it app composer install
+
+# Gerar chave da aplicação
+docker exec -it app php artisan key:generate
+
+# Rodar migrações
+docker exec -it app php artisan migrate
+
+# Instalar dependências do frontend
+docker exec -it app npm install
+
+# Compilar assets
+docker exec -it app npm run dev
+
+```
+
+## Iniciar a Aplicação
+
+```
+# Rodar o Backend
+php artisan serve
+
+# rodar o Frontend
+npm run dev
+```
+
+### Acesse o sistema em:
+- http://127.0.0.1:8000
+
+
+# 🔑 Login e Segurança
+
+- O sistema exige login para todas as rotas internas (/dashboard, /grupos, /bandeiras, etc.).
+
+- Usuários não autenticados são redirecionados automaticamente para /login.
+
+- Sessões seguras controladas por middleware auth.
+
+# 🧾 Fluxo de Uso
+
+- Cadastrar Grupo Econômico.
+
+- Adicionar Bandeiras ao grupo.
+
+- Cadastrar Unidades para cada bandeira.
+
+- Registrar Colaboradores associados às unidades.
+
+-  Gerar relatórios e exportações Excel.
+
+- Consultar auditoria de ações.
+
+
+  
