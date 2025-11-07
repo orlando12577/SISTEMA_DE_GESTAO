@@ -71,7 +71,7 @@ O sistema permite cadastrar, consultar e gerenciar todas essas entidades, além 
 
 ## ⚙️ Passos para Rodar o Projeto
 
-- Clonar o repositório
+
 
 ```
 # Clonar o repositório
