@@ -15,7 +15,7 @@ O sistema permite cadastrar, consultar e gerenciar todas essas entidades, além 
 | **Ambiente** | Docker, Docker Compose                                |
 | **Extras**   | Laravel Excel, Auditoria, Autenticação Laravel Breeze |
 
-## 🚀 Funcionalidades
+## 🚀 Funcionalidades :
 ### 🔐 Autenticação
 
 - Login, registro e recuperação de senha.
@@ -69,7 +69,7 @@ O sistema permite cadastrar, consultar e gerenciar todas essas entidades, além 
 
 - Armazena data, hora e usuário responsável.
 
-## ⚙️ Passos para Rodar o Projeto
+## ⚙️ Passos para Rodar o Projeto :
 
 
 
@@ -128,7 +128,7 @@ npm run dev
 - http://127.0.0.1:8000
 
 
-# 🔑 Login e Segurança
+# 🔑 Login e Segurança :
 
 - O sistema exige login para todas as rotas internas (/dashboard, /grupos, /bandeiras, etc.).
 
@@ -136,7 +136,7 @@ npm run dev
 
 - Sessões seguras controladas por middleware auth.
 
-# 🧾 Fluxo de Uso
+# 🧾 Fluxo de Uso :
 
 - Cadastrar Grupo Econômico.
 
