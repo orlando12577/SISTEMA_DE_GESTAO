@@ -75,6 +75,7 @@
                             <th class="border border-gray-500 px-3 py-2 text-left text-sm font-semibold">Email</th>
                             <th class="border border-gray-500 px-3 py-2 text-left text-sm font-semibold">CPF</th>
                             <th class="border border-gray-500 px-3 py-2 text-left text-sm font-semibold">Unidade</th>
+                            <th class="border border-gray-500 px-3 py-2 text-left text-sm font-semibold">Bandeira</th>
                             <th class="border border-gray-500 px-3 py-2 text-left text-sm font-semibold">Status</th>
                         </tr>
                     </thead>
@@ -85,6 +86,7 @@
                                 <td class="border border-gray-400 px-3 py-2">{{ $colaborador->email }}</td>
                                 <td class="border border-gray-400 px-3 py-2">{{ $colaborador->cpf }}</td>
                                 <td class="border border-gray-400 px-3 py-2">{{ $colaborador->unidade->nome_fantasia ?? '-' }}</td>
+                                <td class="border border-gray-400 px-3 py-2">{{ $colaborador->unidade->bandeira->nome ?? '-' }}</td>
                                 <td class="border border-gray-400 px-3 py-2">
                                     <span class="{{ $colaborador->status == 'ativo' ? 'text-green-600 font-semibold' : 'text-red-600 font-semibold' }}">
                                         {{ ucfirst($colaborador->status) }}
@@ -93,7 +95,7 @@
                             </tr>
                         @empty
                             <tr>
-                                <td colspan="5" class="text-center text-gray-600 py-4">
+                                <td colspan="6" class="text-center text-gray-600 py-4">
                                     Nenhum colaborador encontrado.
                                 </td>
                             </tr>

@@ -19,6 +19,7 @@
             <a href="{{ route('grupos.index') }}" class="hover:text-blue-400 transition">💼 Grupos</a>
             <a href="{{ route('bandeiras.index') }}" class="hover:text-blue-400 transition">🚩 Bandeiras</a>
             <a href="{{ route('colaboradores.index') }}" class="hover:text-blue-400 transition">👥 Colaboradores</a>
+            <a href="{{ route('auditoria.index') }}" class="hover:text-blue-400 transition">🧾 Auditoria</a>
         </div>
 
         <!-- Logout -->

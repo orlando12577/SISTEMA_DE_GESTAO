@@ -22,7 +22,6 @@
                 <a href="{{ route('colaboradores.create') }}" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">Novo Colaborador</a>
                 <a href="{{ route('export.colaboradores') }}" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded">Exportar Excel</a>
                 <a href="{{ route('colaboradores.relatorio') }}" class="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded">Relatório</a>
-                <a href="{{ route('auditoria.index') }}" class="bg-gray-700 hover:bg-gray-800 text-white px-4 py-2 rounded">Auditoria</a>
             </div>
 
             <!-- Filtro rápido -->

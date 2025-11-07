@@ -6,7 +6,7 @@
         <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-6 relative">
 
             
-            <a href="{{ route('colaboradores.index') }}"
+            <a href="{{ route('dashboard') }}"
                class="absolute top-4 left-6 bg-gray-600 hover:bg-gray-700 text-white font-semibold px-3 py-1 rounded-md transition text-sm flex items-center">
                 ← Voltar
             </a>
