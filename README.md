@@ -151,9 +151,11 @@ npm run dev
 - Consultar auditoria de ações.
 
 
-  # :movie_camera: video
   
-[![Assista ao vídeo de demonstração](https://youtu.be/gQft9uG8qi4)
+## 🎥 Demonstração do Projeto
+
+[![Assista ao vídeo de demonstração](https://img.youtube.com/vi/gQft9uG8qi4/hqdefault.jpg)](https://youtu.be/gQft9uG8qi4)
+
 
 
 
