@@ -73,7 +73,11 @@ O sistema permite cadastrar, consultar e gerenciar todas essas entidades, além 
 
 - Clonar o repositório
 
-```Clonar o repositório
+```
+# Clonar o repositório
+git clone https://github.com/seuusuario/sistema-gestao.git
+cd sistema-gestao
+
 # Copiar o arquivo de ambiente
 cp .env.example .env
 
