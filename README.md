@@ -153,7 +153,7 @@ npm run dev
 
   # :movie_camera: video
   
-[![Assista ao vídeo de demonstração](https://youtu.be/i0RK0e-6yCc)
+[![Assista ao vídeo de demonstração](https://youtu.be/gQft9uG8qi4)
 
 
 
